@@ -181,8 +181,6 @@ var TorBirdyPrefs = {
   // Don't ask to be the default client.
   "mail.shell.checkDefaultClient": false,
   "mail.shell.checkDefaultMail": false,
-  // Disable inline attachments.
-  "mail.inline_attachments": false,
   // Do not IDLE (disable push mail).
   "mail.server.default.use_idle": false,
   // Thunderbird's autoconfig wizard is designed to enable an initial
