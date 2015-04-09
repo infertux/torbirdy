@@ -167,11 +167,6 @@ var TorBirdyPrefs = {
   "mailnews.message_display.allow_plugins": false,
   // Don't convert to our local date. This may matter in a reply, etc.
   "mailnews.display.original_date": true,
-  // When replying to a message, set to: '%s'.
-  // https://lists.torproject.org/pipermail/tor-talk/2012-May/024395.html
-  "mailnews.reply_header_type": 1,
-  "mailnews.reply_header_authorwrote": "%s",
-  "mailnews.reply_header_authorwrotesingle": "#1:",
   // Show Sender header in message pane (#10226).
   // http://heise.de/-2044405
   // https://bugzilla.mozilla.org/show_bug.cgi?id=332639
