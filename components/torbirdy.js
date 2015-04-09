@@ -156,13 +156,6 @@ var TorBirdyPrefs = {
   "mailnews.send_default_charset": "UTF-8",
   // Send plain text with hard line breaks as entered.
   "mailnews.send_plaintext_flowed": false,
-  // Display a message as plain text, even if there is a HTML version.
-  "mailnews.display.prefer_plaintext": true,
-  // Don't display HTML, inline images and some other uncommon content.
-  // From: http://www.bucksch.org/1/projects/mozilla/108153/
-  "mailnews.display.disallow_mime_handlers": 3,
-  // Convert HTML to text and then back again.
-  "mailnews.display.html_as": 1,
   // Disable plugin support.
   "mailnews.message_display.allow_plugins": false,
   // Don't convert to our local date. This may matter in a reply, etc.
