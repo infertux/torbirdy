@@ -1,4 +1,4 @@
-0.2.0, 
+0.2.0, 27 Jun 2016
 
  * Bug 6314: Prevent local timestamp disclosure via Date header
  * Bug 6315: Prevent local timestamp disclosure via Message-ID header
