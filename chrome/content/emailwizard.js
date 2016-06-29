@@ -106,6 +106,10 @@ if(!org.torbirdy.emailwizard) org.torbirdy.emailwizard = new function() {
           config.incoming.hostname = "mail.%EMAILDOMAIN%";
           config.outgoing.hostname = "mail.%EMAILDOMAIN%";
           break;
+        case "systemli.org":
+          config.incoming.hostname = "mail.%EMAILDOMAIN%";
+          config.outgoing.hostname = "mail.%EMAILDOMAIN%";
+          break;
       }
 
       replaceVariables(config, realname, email, password);
