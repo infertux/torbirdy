@@ -37,8 +37,6 @@ var TorBirdyPrefs = {
 
   // Use a manual proxy configuration.
   "network.proxy.type": 1,
-  // https://bugs.torproject.org/10419
-  "network.proxy.no_proxies_on": "",
   // Restrict TBB ports.
   "network.security.ports.banned": "9050,9051,9150,9151",
   // Number of seconds to wait before attempting to recontact an unresponsive proxy server.
