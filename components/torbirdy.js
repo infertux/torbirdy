@@ -310,9 +310,6 @@ var TorBirdyPrefs = {
 
   // Mozilla Lightning.
   "calendar.useragent.extra": "",
-  // We have to set a timezone otherwise the system time is used. "UTC" or
-  // "GMT" is not an option so we set it to Europe/London.
-  "calendar.timezone.local": "Europe/London",
 
   /*
    Other Settings
