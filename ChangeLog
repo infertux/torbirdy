@@ -1,3 +1,8 @@
+0.2.1,
+ * Bug 20157: Do not set calendar timezone to UTC
+ * Revert setting no_proxies_on to an empty string
+ * Added support for automatic configuration of systemli.org email accounts
+
 0.2.0, 27 Jun 2016
 
  * Bug 6314: Prevent local timestamp disclosure via Date header
