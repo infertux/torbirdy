@@ -16,5 +16,6 @@ To perform a release for TorBirdy:
   Upload the package to Mozilla's AddOn site manually
   Write a blog post anouncing the release on the Tor Project blog
   Write an email anouncing the release to tor-talk
+  Bump the version number on the wiki and make other relevant changes
   Announce the release widely in whatever format is reasonable or desired
  
