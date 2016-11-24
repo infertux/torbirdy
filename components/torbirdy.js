@@ -320,6 +320,7 @@ var TorBirdyPrefs = {
   // These are similar to the mailnews.* settings.
   "rss.display.disallow_mime_handlers": 3,
   "rss.display.html_as": 1,
+  "rss.show.content-base": 1,
 
   // Override the user agent by setting it to an empty string.
   "general.useragent.override": "",
