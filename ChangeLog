@@ -1,4 +1,4 @@
-0.2.1,
+0.2.1, 30 Nov 2016
  * Bug 20157: Do not set calendar timezone to UTC
  * Bug 20750, 20644: Ensure RSS feeds are displayed in plain text
  * Revert setting no_proxies_on to an empty string
