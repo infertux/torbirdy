@@ -14,8 +14,8 @@ To perform a release for TorBirdy:
   Upload packages to the Tor Project webserver:
     Run `push-release` and the packages are uploaded
   Upload the package to Mozilla's AddOn site manually
+    Check the Add-ons validation to ensure that there are no errors
   Write a blog post anouncing the release on the Tor Project blog
-  Write an email anouncing the release to tor-talk
   Bump the version number on the wiki and make other relevant changes
   Announce the release widely in whatever format is reasonable or desired
   Contact the Debian maintainers to notify them of the new version
