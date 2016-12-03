@@ -18,4 +18,5 @@ To perform a release for TorBirdy:
   Write an email anouncing the release to tor-talk
   Bump the version number on the wiki and make other relevant changes
   Announce the release widely in whatever format is reasonable or desired
- 
+  Contact the Debian maintainers to notify them of the new version
+  (pkg-privacy-maintainers@lists.alioth.debian.org)
