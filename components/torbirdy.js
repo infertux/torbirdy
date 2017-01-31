@@ -272,7 +272,7 @@ var TorBirdyPrefs = {
                                               // We want to force UTF-8 everywhere
                                               "--display-charset utf-8 " +
                                               // We want to ensure that Enigmail is proxy aware even when it runs gpg in a shell
-                                              "--keyserver-options http-proxy=socks5h://127.0.0.1:9150 ",
+                                              "--keyserver-options http-proxy=socks5h://127.0.0.1:9050 ",
                                             
   // The default key server should be a hidden service; use the Tor OnionBalance hidden service pool (https://sks-keyservers.net/overview-of-pools.php#pool_tor)
   "extensions.enigmail.keyserver": "hkp://jirk5u4osbsr34t5.onion",

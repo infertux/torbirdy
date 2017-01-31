@@ -40,6 +40,7 @@
         // Tor.
         if (type === 0) {
           myPanel.label = strbundle.getString("torbirdy.enabled.tor");
+          org.torbirdy.prefs.setProxyTor();
         }
         // JonDo/Whonix.
         if (type === 1) {

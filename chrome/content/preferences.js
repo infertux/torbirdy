@@ -41,17 +41,19 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
     if (pub.prefs.getBoolPref("extensions.torbirdy.enigmail.throwkeyid")) {
       opts += "--throw-keyids ";
     }
-    var proxy = "socks5h://127.0.0.1:9150";
-    if (anonService === "jondo") {
-      proxy = "http://127.0.0.1:4001";
+    if (! pub.prefs.getBoolPref("extensions.torbirdy.gpg_already_torified")) {
+      var proxy = "socks5h://127.0.0.1:9150";
+      if (anonService === "jondo") {
+        proxy = "http://127.0.0.1:4001";
+      }
+      opts += "--keyserver-options=no-try-dns-srv,http-proxy=" + proxy + " ";
     }
 
     return opts +
            "--no-emit-version " +
            "--no-comments " +
            "--display-charset utf-8 " +
-           "--keyserver-options no-auto-key-retrieve,no-try-dns-srv,http-proxy=" +
-           proxy;
+           "--keyserver-options no-auto-key-retrieve";
   };
 
   pub.updateKeyserver = function(anonService) {
@@ -201,6 +203,7 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
 
     pub.setPanelSettings(pub.strBundle.GetStringFromName("torbirdy.enabled.tor"), "green");
     pub.prefs.setIntPref(pub.prefBranch + 'proxy', 0);
+    pub.setPreferences("extensions.enigmail.agentAdditionalParam", pub.setEnigmailPrefs("tor"));
   };
 
   pub.setProxyJonDo = function() {
