@@ -274,8 +274,8 @@ var TorBirdyPrefs = {
                                               // We want to ensure that Enigmail is proxy aware even when it runs gpg in a shell
                                               "--keyserver-options http-proxy=socks5h://127.0.0.1:9150 ",
                                             
-  // The default key server should be a hidden service and this is the only known one (it's part of the normal SKS network)
-  "extensions.enigmail.keyserver": "hkp://qdigse2yzvuglcix.onion",
+  // The default key server should be a hidden service; use the Tor OnionBalance hidden service pool (https://sks-keyservers.net/overview-of-pools.php#pool_tor)
+  "extensions.enigmail.keyserver": "hkp://jirk5u4osbsr34t5.onion",
   // Force GnuPG to use SHA512.
   "extensions.enigmail.mimeHashAlgorithm": 5,
 
