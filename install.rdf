@@ -4,7 +4,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>castironthunderbirdclub@torproject.org</em:id>
-    <em:version>0.2.1</em:version>
+    <em:version>0.2.2</em:version>
     <em:type>2</em:type>
     <em:iconURL>chrome://castironthunderbirdclub/skin/images/tor.png</em:iconURL>
 
@@ -20,7 +20,8 @@
     <!-- front-end metadata -->
     <em:name>TorBirdy</em:name>
     <em:description>This extension configures Thunderbird to make connections over the Tor anonymity network</em:description>
-    <em:creator>Jacob Appelbaum &amp; Sukhbir Singh</em:creator>
+    <em:creator>Sukhbir Singh</em:creator>
+    <em:contributor>Jacob Appelbaum</em:contributor>
     <em:contributor>tagnaq</em:contributor>
     <em:homepageURL>https://www.torproject.org/</em:homepageURL>
     <em:optionsURL>chrome://castironthunderbirdclub/content/preferences.xul</em:optionsURL>
