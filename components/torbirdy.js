@@ -123,7 +123,8 @@ var TorBirdyPrefs = {
   "security.enable_ssl3": false,
   // Thunderbird 23.0 uses the following preference.
   // https://bugs.torproject.org/11253
-  "security.tls.version.min": 1,
+  // March 2017: See https://bugs.torproject.org/20751
+  "security.tls.version.min": 3,
   "security.tls.version.max": 3,
   // Display a dialog warning the user when entering an insecure site from a secure one.
   "security.warn_entering_weak": true,
