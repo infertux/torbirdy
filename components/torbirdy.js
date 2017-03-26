@@ -598,9 +598,6 @@ TorBirdy.prototype = {
       var accounts = this.acctMgr.accounts;
 
       var allAccounts = [];
-      // To maintain compatibility between Gecko 17+ and Gecko < 17, find out
-      // which version we are on.
-
       var accountLength = accounts.length;
       for (let i = 0; i < accountLength; i++) {
         var account = accounts.queryElementAt(i, Ci.nsIMsgAccount);
