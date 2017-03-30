@@ -1,7 +1,7 @@
 0.2.2, 
  * Bug 20751: Enforce stronger ciphers in TorBirdy
- * Bug 16935, 19971: Add support for already torified keyserver communication
- using modern GnuPG
+ * Bug 6958, 16935, 19971: Add support for already torified keyserver
+ communication using modern GnuPG
  * Update default keyserver to OnionBalance hidden service pool
 
 0.2.1, 30 Nov 2016
