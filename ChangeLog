@@ -1,4 +1,4 @@
-0.2.2, 
+0.2.2, 03 April 2017
  * Bug 20751: Enforce stronger ciphers in TorBirdy
  * Bug 6958, 16935, 19971: Add support for already torified keyserver
  communication using modern GnuPG
