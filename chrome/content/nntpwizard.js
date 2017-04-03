@@ -15,7 +15,7 @@ if (!org.torbirdy.nntpwizard) org.torbirdy.nntpwizard = new function() {
       ['mail.server.%serverkey%.socketType', 3]
     ];
 
-    for each (var [pref_template, value] in pref_spec) {
+    for (var [pref_template, value] of pref_spec) {
       let pref = pref_template.replace("%serverkey%", key);
       Preferences.set(pref, value);
     }

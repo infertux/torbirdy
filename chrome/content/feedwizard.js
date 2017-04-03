@@ -14,7 +14,7 @@ if (!org.torbirdy.feedwizard) org.torbirdy.feedwizard = new function() {
       ['mail.server.%serverkey%.login_at_startup', false]
     ];
 
-    for each (var [pref_template, value] in pref_spec) {
+    for (var [pref_template, value] of pref_spec) {
       let pref = pref_template.replace("%serverkey%", accountKey);
       Preferences.set(pref, value);
     }

@@ -2,6 +2,7 @@
  * Bug 20751: Enforce stronger ciphers in TorBirdy
  * Bug 6958, 16935, 19971: Add support for already torified keyserver
  communication using modern GnuPG
+ * The minimum supported Thunderbird version is 45.0 and the maximum is 52.*
  * Update default keyserver to OnionBalance hidden service pool
 
 0.2.1, 30 Nov 2016

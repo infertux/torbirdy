@@ -39,7 +39,7 @@ if(!org.torbirdy.emailwizard) org.torbirdy.emailwizard = new function() {
         pref_spec.push(['mail.server.%serverkey%.download_on_biff', false]);
     }
 
-    for each (var [pref_template, value] in pref_spec) {
+    for (var [pref_template, value] of pref_spec) {
         var pref = pref_template.replace("%idkey%", idkey);
         pref = pref.replace("%serverkey%", serverkey);
         pref = pref.replace("%outgoing%", outgoing);

@@ -697,7 +697,7 @@ TorBirdy.prototype = {
         ["mail.smtpserver.%smtp%.try_ssl", 3], // SSL/TLS
       ];
       for (let i = 0; i < smtpAccounts.length; i++) {
-        for each (var [pref_template, value] in smtpPrefs) {
+        for (var [pref_template, value] of smtpPrefs) {
           let pref = pref_template.replace("%smtp%", smtpAccounts[i]);
           if (this.prefs.prefHasUserValue(pref)) {
             let currentPref = Preferences.get(pref);
