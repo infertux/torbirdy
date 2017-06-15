@@ -316,6 +316,10 @@ var TorBirdyPrefs = {
    Other Settings
   */
 
+  // Disable Google Safe Browsing (#22567).
+  "browser.safebrowsing.enabled": false,
+  "browser.safebrowsing.malware.enabled": false,
+
   // RSS.
   "rss.display.prefer_plaintext": true,
   // These are similar to the mailnews.* settings.
