@@ -320,6 +320,9 @@ var TorBirdyPrefs = {
   "browser.safebrowsing.enabled": false,
   "browser.safebrowsing.malware.enabled": false,
 
+  // Disable Microsoft Family Safety (From TBB: #21686).
+  "security.family_safety.mode": 0,
+
   // RSS.
   "rss.display.prefer_plaintext": true,
   // These are similar to the mailnews.* settings.
