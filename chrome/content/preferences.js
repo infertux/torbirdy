@@ -46,6 +46,9 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
       if (anonService === "jondo") {
         proxy = "http://127.0.0.1:4001";
       }
+      if (anonService === "custom") {
+        proxy = "socks5h://" + pub.prefs.getCharPref("network.proxy.socks") + ":" + pub.prefs.getIntPref("network.proxy.socks_port");
+      }
       opts += "--keyserver-options=no-try-dns-srv,http-proxy=" + proxy + " ";
     }
 
@@ -255,6 +258,7 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
 
     pub.setPanelSettings(pub.strBundle.GetStringFromName("torbirdy.enabled.custom"), "green");
     pub.prefs.setIntPref(pub.prefBranch + 'proxy', 2);
+    pub.setPreferences("extensions.enigmail.agentAdditionalParam", pub.setEnigmailPrefs("custom"));
   };
 
   pub.setProxyTransparent = function() {
@@ -262,6 +266,7 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
 
     pub.setPanelSettings(pub.strBundle.GetStringFromName("torbirdy.enabled.torification"), "red");
     pub.prefs.setIntPref(pub.prefBranch + 'proxy', 3);
+    pub.setPreferences("extensions.enigmail.agentAdditionalParam", pub.setEnigmailPrefs("tor"));
   };
 
   /*
@@ -320,6 +325,13 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
       pub.prefs.setBoolPref(pub.prefBranch + 'startup_folder', false);
     }
 
+    // Thunderbird's email wizard - default: false
+    if (pub.emailWizard.checked) {
+      pub.prefs.setBoolPref(pub.prefBranch + 'emailwizard', true);
+    } else {
+      pub.prefs.setBoolPref(pub.prefBranch + 'emailwizard', false);
+    }
+
     // Fetch all messages for all accounts.
     // default: false
     // Only change the state if it is required.
@@ -360,26 +372,6 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
       pub.prefs.setBoolPref(pub.prefBranch + 'enigmail.confirmemail', false);
     }
 
-    // Thunderbird's email wizard - default: false
-    if (pub.emailWizard.checked) {
-      pub.prefs.setBoolPref(pub.prefBranch + 'emailwizard', true);
-    } else {
-      pub.prefs.setBoolPref(pub.prefBranch + 'emailwizard', false);
-    }
-
-    if (index === 1) {
-      // JonDo.
-      if (pub.anonCustomService.selectedIndex === 0) {
-        pub.setPreferences("extensions.enigmail.agentAdditionalParam", pub.setEnigmailPrefs("jondo"));
-      }
-      // Whonix.
-      if (pub.anonCustomService.selectedIndex === 1) {
-        pub.setPreferences("extensions.enigmail.agentAdditionalParam", pub.setEnigmailPrefs("tor"));
-      }
-    }
-    if (index === 0 || index === 2 || index === 3) {
-      pub.setPreferences("extensions.enigmail.agentAdditionalParam", pub.setEnigmailPrefs("tor"));
-    }
   };
 
   /*
