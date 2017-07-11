@@ -1,3 +1,9 @@
+0.2.3, 
+ * Bug 21880: Enable encrypted email headers
+ * Bug 22569: Update Enigmail values for custom proxy settings
+ * Bug 22318, 22567: Disable Microsoft Family Safety and Google Safe Browsing
+ * Update keyserver port to 9150 (Tor Browser default)
+
 0.2.2, 03 April 2017
  * Bug 20751: Enforce stronger ciphers in TorBirdy
  * Bug 6958, 16935, 19971: Add support for already torified keyserver
