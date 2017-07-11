@@ -136,6 +136,7 @@
           <vbox>
             <checkbox accesskey="&torbirdy.prefs.confirmemail.key;" id="torbirdy-confirm-email" label="&torbirdy.prefs.confirmemail.label;"/>
             <checkbox accesskey="&torbirdy.prefs.enigmail_throwkeyid.key;" id="torbirdy-enigmail-throwkeyid" label="&torbirdy.prefs.enigmail_throwkeyid.label;"/>
+            <checkbox accesskey="&torbirdy.prefs.enigmail_protected.key;" id="torbirdy-enigmail-protected" label="&torbirdy.prefs.enigmail_protected.label;"/>
             <separator class="thin" orient="horizontal"/>
             <vbox>
               <label accesskey="&torbirdy.prefs.enigmail.keyserver.key;" control="torbirdy-enigmail-keyserver" value="&torbirdy.prefs.enigmail.keyserver.label;"/>

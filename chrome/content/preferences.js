@@ -372,6 +372,15 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
       pub.prefs.setBoolPref(pub.prefBranch + 'enigmail.confirmemail', false);
     }
 
+    // Protected email headers - default: true
+    var enigmailProtectedPref = "extensions.enigmail.protectHeaders";
+    if (pub.enigmailProtected.checked) {
+      pub.prefs.setBoolPref(enigmailProtectedPref, false);
+      pub.prefs.setBoolPref(pub.prefBranch + 'enigmail.protected', false);
+    } else {
+      pub.prefs.setBoolPref(enigmailProtectedPref, true);
+      pub.prefs.setBoolPref(pub.prefBranch + 'enigmail.protected', true);
+    }
   };
 
   /*
@@ -396,6 +405,7 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
     pub.enigmailKeyId = document.getElementById('torbirdy-enigmail-throwkeyid');
     pub.enigmailKeyserver = document.getElementById('torbirdy-enigmail-keyserver');
     pub.enigmailConfirmEmail = document.getElementById('torbirdy-confirm-email');
+    pub.enigmailProtected = document.getElementById('torbirdy-enigmail-protected');
     // Security.
     pub.secureRenegotiation = document.getElementById('torbirdy-renegotiation');
 
@@ -420,7 +430,7 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
     }
 
     /*
-     PROXY
+     Proxy
     */
     // Load the preference values.
     var anonService = pub.prefs.getIntPref(pub.prefBranch + 'proxy');
@@ -486,7 +496,7 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
       pub.fetchAllMails.checked = false;
     }
 
-    // Enigmal settings
+    // Enigmail
     // --throw-keyids - default: false
     if (pub.prefs.getBoolPref(pub.prefBranch + 'enigmail.throwkeyid')) {
       pub.enigmailKeyId.checked = true;
@@ -499,6 +509,13 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
       pub.enigmailConfirmEmail.checked = true;
     } else {
       pub.enigmailConfirmEmail.checked = false;
+    }
+
+    // Protected email headers - default: true
+    if (pub.prefs.getBoolPref(pub.prefBranch + 'enigmail.protected')) {
+      pub.enigmailProtected.checked = false;
+    } else {
+      pub.enigmailProtected.checked = true;
     }
 
     // Keyserver.
