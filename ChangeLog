@@ -1,5 +1,5 @@
 0.2.3, 
- * Bug 21880: Enable encrypted email headers
+ * Bug 21880: Enable encrypted email headers for Enigmail (Memory Hole)
  * Bug 22569: Update Enigmail values for custom proxy settings
  * Bug 22318, 22567: Disable Microsoft Family Safety and Google Safe Browsing
  * Update keyserver port to 9150 (Tor Browser default)
