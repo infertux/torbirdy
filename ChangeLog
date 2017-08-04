@@ -1,4 +1,4 @@
-0.2.3, 
+0.2.3, 04 Aug 2017
  * Bug 21880: Enable encrypted email headers for Enigmail (Memory Hole)
  * Bug 22569: Update Enigmail values for custom proxy settings
  * Bug 22318, 22567: Disable Microsoft Family Safety and Google Safe Browsing
