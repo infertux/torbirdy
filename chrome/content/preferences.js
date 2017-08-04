@@ -375,11 +375,9 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
     // Protected email headers - default: true
     var enigmailProtectedPref = "extensions.enigmail.protectHeaders";
     if (pub.enigmailProtected.checked) {
-      pub.prefs.setBoolPref(enigmailProtectedPref, false);
-      pub.prefs.setBoolPref(pub.prefBranch + 'enigmail.protected', false);
+      pub.setPreferences(enigmailProtectedPref, false);
     } else {
-      pub.prefs.setBoolPref(enigmailProtectedPref, true);
-      pub.prefs.setBoolPref(pub.prefBranch + 'enigmail.protected', true);
+      pub.setPreferences(enigmailProtectedPref, true);
     }
   };
 
@@ -512,7 +510,13 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
     }
 
     // Protected email headers - default: true
-    if (pub.prefs.getBoolPref(pub.prefBranch + 'enigmail.protected')) {
+    var protectedPref = pub.customBranch + 'extensions.enigmail.protectHeaders';
+    if (pub.prefs.prefHasUserValue(protectedPref)) {
+      var protectedPrefValue = pub.prefs.getBoolPref(protectedPref);
+    } else {
+      var protectedPrefValue = pub.prefs.getBoolPref('extensions.enigmail.protectHeaders');
+    }
+    if (protectedPrefValue) {
       pub.enigmailProtected.checked = false;
     } else {
       pub.enigmailProtected.checked = true;

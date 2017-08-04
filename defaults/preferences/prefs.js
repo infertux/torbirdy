@@ -5,7 +5,6 @@ pref("extensions.torbirdy.warn", true);
 pref("extensions.torbirdy.startup_folder", false);
 pref("extensions.torbirdy.enigmail.throwkeyid", false);
 pref("extensions.torbirdy.enigmail.confirmemail", false);
-pref("extensions.torbirdy.enigmail.protected", true);
 pref("extensions.torbirdy.gpg_already_torified", false);
 pref("extensions.torbirdy.timezone", true);
 pref("extensions.torbirdy.whonix_run", true);
