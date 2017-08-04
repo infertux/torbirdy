@@ -50,7 +50,7 @@
 <!ENTITY torbirdy.prefs.enigmail.keyserver.label "Bruk følgende nøkkeltjener(e):">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.key "k">
 
-<!ENTITY torbirdy.panel.usetor.label "Bruk Tor Onion Router">
+<!ENTITY torbirdy.panel.usetor.label "Bruk Tor løk-router">
 <!ENTITY torbirdy.panel.usejondo.label "Bruk JonDo (Premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Bruk Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Åpne TorBirdy Innstillinger">

@@ -47,7 +47,7 @@
 <!ENTITY torbirdy.prefs.account_specific "Conta Específica">
 <!ENTITY torbirdy.prefs.select_account.key "C">
 <!ENTITY torbirdy.prefs.select_account.label "Escolher uma conta:">
-<!ENTITY torbirdy.prefs.enigmail.keyserver.label "Servidor(es) de chave a usar:">
+<!ENTITY torbirdy.prefs.enigmail.keyserver.label "Usar o(s) seguinte(s) servidor(es) de chaves:">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.key "k">
 
 <!ENTITY torbirdy.panel.usetor.label "Usar o Roteador Tor Onion">

@@ -1,4 +1,4 @@
-<!ENTITY torbirdy.accountprefs.title "Lokale Proxy-Konfiguration">
+<!ENTITY torbirdy.accountprefs.title "Kontokonfiguration">
 <!ENTITY torbirdy.accountprefs.startup.label "Beim Start auf neue Nachrichten prüfen">
 <!ENTITY torbirdy.accountprefs.startup.key "C">
 <!ENTITY torbirdy.accountprefs.minutes.label "Überprüfungsintervall für neue Nachrichten">
@@ -12,7 +12,7 @@
 <!ENTITY torbirdy.prefs.save.button "Speichern">
 <!ENTITY torbirdy.prefs.save.key "s">
 <!ENTITY torbirdy.prefs.cancel.button "Abbrechen">
-<!ENTITY torbirdy.prefs.extra2.button "Auf Vorgaben zurücksetzen">
+<!ENTITY torbirdy.prefs.extra2.button "Standardeinstellungen wiederherstellen">
 <!ENTITY torbirdy.prefs.extra2.key "d">
 <!ENTITY torbirdy.prefs.testproxy.button "Einstellungen des Vermittlungsserver prüfen">
 <!ENTITY torbirdy.prefs.testproxy.key "n">
@@ -32,17 +32,17 @@
 <!ENTITY torbirdy.prefs.torification.label "Transparente Torification (Achtung: erfordert benutzerdefinierten transproxy oder TOR-Router)">
 <!ENTITY torbirdy.prefs.torification.key "T">
 <!ENTITY torbirdy.prefs.global "Global">
-<!ENTITY torbirdy.prefs.imap.label "Push-E-Mail-Unterstützung für IMAP-Konten aktivieren [Vorgabe: deaktiviert]">
+<!ENTITY torbirdy.prefs.imap.label "Push-E-Mail-Unterstützung für IMAP-Konten aktivieren [Standard: deaktiviert]">
 <!ENTITY torbirdy.prefs.imap.key "P">
-<!ENTITY torbirdy.prefs.startup_folder.label "Beim Start zum letzten aktiven Nachrichtenordner wechseln [Vorgabe: deaktiviert]">
+<!ENTITY torbirdy.prefs.startup_folder.label "Beim Start zum letzten aktiven Nachrichtenordner wechseln [Standard: deaktiviert]">
 <!ENTITY torbirdy.prefs.startup_folder.key "B">
-<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Die Empfängerschlüsselkennung nicht in verschlüsselte Nachrichten einbinden [Vorgabe: mit einbinden]">
+<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Die Empfängerschlüsselkennung nicht in verschlüsselte Nachrichten einbinden [Standard: mit einbinden]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "D">
-<!ENTITY torbirdy.prefs.confirmemail.label "Vor dem Versenden einer E-Mail überprüfen, ob Enigmail aktiviert ist [Vorgabe: nicht überprüfen]">
+<!ENTITY torbirdy.prefs.confirmemail.label "Vor dem Versenden einer E-Mail überprüfen, ob Enigmail aktiviert ist [Standard: nicht überprüfen]">
 <!ENTITY torbirdy.prefs.confirmemail.key "V">
-<!ENTITY torbirdy.prefs.emailwizard.label "Thunderbirds automatischen E-Mail-Konfigurationsassistenten aktivieren [Vorgabe: deaktiviert]">
+<!ENTITY torbirdy.prefs.emailwizard.label "Thunderbirds automatischen E-Mail-Konfigurationsassistenten aktivieren [Standard: deaktiviert]">
 <!ENTITY torbirdy.prefs.emailwizard.key "T">
-<!ENTITY torbirdy.prefs.automatic.label "Automatisch auf neue Nachrichten für alle Konten prüfen [Vorgabe: deaktiviert]">
+<!ENTITY torbirdy.prefs.automatic.label "Automatisch auf neue Nachrichten für alle Konten prüfen [Standard: deaktiviert]">
 <!ENTITY torbirdy.prefs.automatic.key "A">
 <!ENTITY torbirdy.prefs.account_specific "Bestimmtes Konto">
 <!ENTITY torbirdy.prefs.select_account.key "K">

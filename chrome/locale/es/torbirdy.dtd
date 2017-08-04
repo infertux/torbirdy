@@ -1,6 +1,6 @@
 <!ENTITY torbirdy.accountprefs.title "Configuración de la cuenta">
 <!ENTITY torbirdy.accountprefs.startup.label "Buscar nuevos mensajes al iniciar">
-<!ENTITY torbirdy.accountprefs.startup.key "i">
+<!ENTITY torbirdy.accountprefs.startup.key "C">
 <!ENTITY torbirdy.accountprefs.minutes.label "Buscar nuevos mensajes cada">
 <!ENTITY torbirdy.accountprefs.minutes.key "d">
 <!ENTITY torbirdy.accountprefs.minutes.trail.label "minutos">
@@ -34,7 +34,7 @@
 <!ENTITY torbirdy.prefs.global "Global">
 <!ENTITY torbirdy.prefs.imap.label "Habilitar soporte de push email para cuentas IMAP [por defecto: deshabilitado]">
 <!ENTITY torbirdy.prefs.imap.key "h">
-<!ENTITY torbirdy.prefs.startup_folder.label "En el arranque seleccionar la última carpeta de correo a la que se accedió [predeterminado: deshabilitado]">
+<!ENTITY torbirdy.prefs.startup_folder.label "Cuando arranque seleccionar la última carpeta de correo a la que se accedió [predeterminado: deshabilitado]">
 <!ENTITY torbirdy.prefs.startup_folder.key "u">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "No ponga la clave de identificación del receptor en los mensajes cifrados [por defecto: poner]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "f">

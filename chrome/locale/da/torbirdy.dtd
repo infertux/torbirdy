@@ -8,7 +8,7 @@
 <!ENTITY torbirdy.accountprefs.save.button "Gem">
 <!ENTITY torbirdy.accountprefs.save.key "S">
 
-<!ENTITY torbirdy.prefs.title "TorBirdy præferencer">
+<!ENTITY torbirdy.prefs.title "TorBirdy-præferencer">
 <!ENTITY torbirdy.prefs.save.button "Gem">
 <!ENTITY torbirdy.prefs.save.key "s">
 <!ENTITY torbirdy.prefs.cancel.button "Fortryd">
@@ -21,13 +21,13 @@
 <!ENTITY torbirdy.prefs.enigmail.label "Enigmail">
 <!ENTITY torbirdy.prefs.recommended.text "Brug de anbefalede proxyindstillinger til TorBirdy (Tor)">
 <!ENTITY torbirdy.prefs.recommended.key "r">
-<!ENTITY torbirdy.prefs.anonservice.text "Vælg en anonymiserings-service">
+<!ENTITY torbirdy.prefs.anonservice.text "Vælg en anonymiseringstjeneste">
 <!ENTITY torbirdy.prefs.anonservice.key "a">
 <!ENTITY torbirdy.prefs.customsettings.text "Brug brugerdefinerede proxyindstillinger">
 <!ENTITY torbirdy.prefs.customsettings.key "p">
-<!ENTITY torbirdy.prefs.socks_host.label "SOCKS Host: ">
+<!ENTITY torbirdy.prefs.socks_host.label "SOCKS-vært: ">
 <!ENTITY torbirdy.prefs.socks_host.key "h">
-<!ENTITY torbirdy.prefs.socks_port.label "Port:">
+<!ENTITY torbirdy.prefs.socks_port.label "Port: ">
 <!ENTITY torbirdy.prefs.socks_port.key "p">
 <!ENTITY torbirdy.prefs.torification.label "Gennemsigtig Torifikation (advarsel: Kræver tilpasset transproxy eller Tor-router)">
 <!ENTITY torbirdy.prefs.torification.key "t">
@@ -51,8 +51,8 @@
 <!ENTITY torbirdy.prefs.enigmail.keyserver.key "k">
 
 <!ENTITY torbirdy.panel.usetor.label "Brug Tor Onion Router">
-<!ENTITY torbirdy.panel.usejondo.label "Brug JonDo (Premium)">
+<!ENTITY torbirdy.panel.usejondo.label "Brug JonDo (premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Brug Whonix">
-<!ENTITY torbirdy.panel.preferences.label "Åbn TorBirdy præferencer">
+<!ENTITY torbirdy.panel.preferences.label "Åbn TorBirdy-præferencer">
 
 <!ENTITY torbirdy.firstrun.title "TorBirdy First-Run">
