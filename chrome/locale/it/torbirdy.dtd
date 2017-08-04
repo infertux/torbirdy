@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Non inserire l'ID della chiave del destinatario nei messaggi cifrati [viene inserita di default]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Conferma prima di inviare l'email se Enigmail è attivo [predefinito: non confermare]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Attiva il wizard di configurazione automatica email di Thunderbird [default: disabilitato]">

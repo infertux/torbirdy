@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Ne tedd a fogadó kulcs ID-et a titkosított üzenetbe [alapértelemezett: tedd]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "a">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Email küldése előtt rákérdezés, ha Enigmail engedélyezett [alapértelmezés: ne egyen rákérdezés]">
 <!ENTITY torbirdy.prefs.confirmemail.key "p">
 <!ENTITY torbirdy.prefs.emailwizard.label "A Thunderbird automatikus email beállítási varázslójának engedélyezése [alapértelmezés: tiltott]">

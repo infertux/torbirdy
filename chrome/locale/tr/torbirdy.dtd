@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Şifrelenmiş iletiye alıcı anahtar kodu konulmasın [varsayılan: etkin]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Enigmail kullanılıyorsa, e-posta gönderilmeden önce onaylansın [varsayılan: devre dışı]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Thunderbird otomatik e-posta ayarlama yardımcısı kullanılsın [varsayılan: devre dışı]">

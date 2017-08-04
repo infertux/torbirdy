@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Nedávej příjemcův ID klíč do šifrovaných zpráv [standartně: dávej]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Potvrď před odesláním emailu jestli je  Enigmail zapnut [standartně: nepotvrzuj]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Povolit automatického průvodce nastavení emailu v Thunderbirdu [standartně: vypnuto]">

@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Не помещать идентификаторы ключей получателей в зашифрованные сообщения [по умолчанию: отключено]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Запрашивать активацию Enigmail перед отправкой письма [по умолчанию: не запрашивать]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Активировать автоматический мастер настройки почты Thunderbird [по умолчанию: не активирован]">

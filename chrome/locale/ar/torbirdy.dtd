@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "د">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "لا تضع عناوين مفاتيح المستلم في الرسائل المشفرة [الوضع الافتراضي: ضع]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "ه">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "أكد قبل إرسال البريد الإلكتروني إذا تم تمكين Enigmail [الوضع الافتراضي: لا تُأكد]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "تمكين القائمة التلقائية لإعداد البريد الألكتروني الخاصة بثاندربيرد [الوضع الافتراضي: معطل]">

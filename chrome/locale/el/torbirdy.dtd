@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Να μην τοποθετητούν τα key ID του παραλήπτη στα κρυπτογραφημένα μηνήματα [προεπιλογή : τοποθέτηση]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "ρ">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Επιβεβαιωση πριν την αποστολη του email αν το Enigmail ειναι ενεργοποιημενο [προκαθορισμος: καμμια επιβεβαιωση]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Ενεργοποίηση αυτόματης ρύθμισης παραμέτρων ηλεκτρονικού ταχυδρομείου Thunderbird του οδηγού [προεπιλογή: απενεργοποιημένο]">

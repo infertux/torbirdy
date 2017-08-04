@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "p">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Tilføj ikke modtagerens nøgle-id i de krypterede meddelelser [standard: tilføj]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Bekræft før afsendelse af e-mail hvis Enigmail er aktiv [standard: bekræft ikke]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Anvend Thunderbirds automatiske e-mail konfigurationshjælper [standard: slået fra]">

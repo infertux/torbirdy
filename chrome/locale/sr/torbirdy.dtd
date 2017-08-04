@@ -37,8 +37,9 @@
 <!ENTITY torbirdy.prefs.startup_folder.label "Odaberite poslednji pristupljeni folder za mail pri pokretanju.
 [standardno podesavanje: iskljuceno]">
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
-<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Не стављајте кључена ИД примаоца у кодирану порука [дефаулт: пут]
-">
+<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Не стављајте кључена ИД примаоца у кодирану порука [дефаулт: пут]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
 <!ENTITY torbirdy.prefs.confirmemail.label "Potvrdi pre slanja ukoliko je Enigmail omogućen ">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">

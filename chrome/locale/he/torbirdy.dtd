@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "אל תשים את מזהי מפתח המקבל בתוך הודעות מוצפנות [ברירת מחדל: השם]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "וודא טרם שליחת דוא״ל כי Enigmail מאופשר [ברירת מחדל: אל תוודא]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "הפעל את אשף הגדרות הדוא״ל האוטומטי של Thunderbird [ברירת מחדל: מנוטרל]">

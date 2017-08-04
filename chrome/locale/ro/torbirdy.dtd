@@ -38,6 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "p">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Nu puneți IDul cheii destinatarului în mesajul criptat [implicit: pune]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Confirmă înainte de trimiterea emailului dacă Enigmail este activat [implicit: nu confirma]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Permite vrăjitorul de configurare automată a emailului a Thunderbird [implicit: dezactivat]">
