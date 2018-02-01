@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "I">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Não incluir as identidades dos destinatários em mensagens criptografadas [padrão: incluir]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Desativar a criptografia dos cabeçalhos dos e-mails [padrão: ativada]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Confirmar se Enigmail está ativado antes de enviar um e-mail [padrão: não confirmar]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">

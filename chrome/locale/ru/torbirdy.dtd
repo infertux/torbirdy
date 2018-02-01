@@ -38,8 +38,8 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Не помещать идентификаторы ключей получателей в зашифрованные сообщения [по умолчанию: отключено]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Отключить зашифрованные заголовки email'ов [по умолчанию: включено]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "Д">
 <!ENTITY torbirdy.prefs.confirmemail.label "Запрашивать активацию Enigmail перед отправкой письма [по умолчанию: не запрашивать]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Активировать автоматический мастер настройки почты Thunderbird [по умолчанию: не активирован]">
@@ -48,7 +48,7 @@
 <!ENTITY torbirdy.prefs.automatic.key "f">
 <!ENTITY torbirdy.prefs.account_specific "Определяемые учетной записью">
 <!ENTITY torbirdy.prefs.select_account.key "C">
-<!ENTITY torbirdy.prefs.select_account.label "Выберите учётную запись:">
+<!ENTITY torbirdy.prefs.select_account.label "Выберите учетную запись:">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.label "Сервер(ы) ключей:">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.key "k">
 

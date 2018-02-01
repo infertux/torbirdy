@@ -36,8 +36,11 @@
 <!ENTITY torbirdy.prefs.imap.key "p">
 <!ENTITY torbirdy.prefs.startup_folder.label "ਸ਼ੁਰੂ ਹੋਣ ਤੇ ਆਖਰੀ ਈਮੇਲ ਫੋਲਡਰ ਚੋਣਵਾਂ ਕਰੋ">
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
-<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "GPG '--throw-keyids' ਰੱਦ ਕਰੋ">
+<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "GPG '--throw-keyids' ਰੱਦ ਕਰੋ
+">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "p">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "ਈਮੇਲ ਕਰਨ ਤੌਂ ਪਿਹਲਾਂ ਪੂਛੋ ਜੈ ਏਨਿਗਮੇਲ ਚਾਲੂ ਹੈ">

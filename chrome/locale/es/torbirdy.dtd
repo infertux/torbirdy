@@ -24,22 +24,22 @@
 <!ENTITY torbirdy.prefs.anonservice.text "Escoger un servicio de anonimización">
 <!ENTITY torbirdy.prefs.anonservice.key "a">
 <!ENTITY torbirdy.prefs.customsettings.text "Usar una configuración para proxy personalizada">
-<!ENTITY torbirdy.prefs.customsettings.key "z">
+<!ENTITY torbirdy.prefs.customsettings.key "c">
 <!ENTITY torbirdy.prefs.socks_host.label "Servidor SOCKS:">
-<!ENTITY torbirdy.prefs.socks_host.key "K">
+<!ENTITY torbirdy.prefs.socks_host.key "s">
 <!ENTITY torbirdy.prefs.socks_port.label "Puerto:">
 <!ENTITY torbirdy.prefs.socks_port.key "p">
 <!ENTITY torbirdy.prefs.torification.label "Torificación transparente (sin configurar las aplicaciones)">
-<!ENTITY torbirdy.prefs.torification.key "o">
+<!ENTITY torbirdy.prefs.torification.key "t">
 <!ENTITY torbirdy.prefs.global "Global">
 <!ENTITY torbirdy.prefs.imap.label "Habilitar soporte de push email para cuentas IMAP [por defecto: deshabilitado]">
-<!ENTITY torbirdy.prefs.imap.key "h">
+<!ENTITY torbirdy.prefs.imap.key "p">
 <!ENTITY torbirdy.prefs.startup_folder.label "Cuando arranque seleccionar la última carpeta de correo a la que se accedió [predeterminado: deshabilitado]">
 <!ENTITY torbirdy.prefs.startup_folder.key "u">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "No ponga la clave de identificación del receptor en los mensajes cifrados [por defecto: poner]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "f">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Deshabilitar cabeceras cifradas de correo electrónico [predeterminado: habilitado]">
+<!ENTITY torbirdy.prefs.enigmail_protected.key "r">
 <!ENTITY torbirdy.prefs.confirmemail.label "Confirmar antes de enviar el correo si Enigmail está habilitado [predeterminado: no confirmar]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Habilitar asistente de configuración automática de correo electrónico de Thunderbird [predeterminado: deshabilitado]">
@@ -48,7 +48,7 @@
 las cuentas [por defecto: dehabilitado]">
 <!ENTITY torbirdy.prefs.automatic.key "t">
 <!ENTITY torbirdy.prefs.account_specific "Configuración específica de la cuenta">
-<!ENTITY torbirdy.prefs.select_account.key "e">
+<!ENTITY torbirdy.prefs.select_account.key "C">
 <!ENTITY torbirdy.prefs.select_account.label "Elegir una cuenta">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.label "Servidor(es) de claves a usar:">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.key "v">

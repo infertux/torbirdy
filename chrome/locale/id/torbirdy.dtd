@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "P">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Jangan masukkan kunci ID penerima ke pesan terenkrip [bawaan: masukkan]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "P">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Nonaktifkan email header terenkripsi [standar: diaktifkan]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Konfirmasi sebelum mengirim email jika Enigmail diaktifkan [bawaan: tidak dikonfirmasi]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">

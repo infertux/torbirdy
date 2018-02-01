@@ -21,7 +21,7 @@
 <!ENTITY torbirdy.prefs.enigmail.label "Enigmail">
 <!ENTITY torbirdy.prefs.recommended.text "Utiliser les paramètres de mandataire recommandés pour TorBirdy (Tor)">
 <!ENTITY torbirdy.prefs.recommended.key "r">
-<!ENTITY torbirdy.prefs.anonservice.text "Choisir un service d'anonymisation">
+<!ENTITY torbirdy.prefs.anonservice.text "Choisir un service d’anonymisation">
 <!ENTITY torbirdy.prefs.anonservice.key "a">
 <!ENTITY torbirdy.prefs.customsettings.text "Utiliser des paramètres de mandataire personnalisés">
 <!ENTITY torbirdy.prefs.customsettings.key "c">
@@ -38,11 +38,11 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Ne pas mettre les ID des clés des destinataires dans les messages chiffrés [par défaut : les mettre]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Désactiver les en-têtes de courriel chiffrés [par défaut : activé]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.confirmemail.label "Avant d'envoyer un courriel, confirmer si Enigmail est activé [par défaut : ne pas confirmer]">
+<!ENTITY torbirdy.prefs.confirmemail.label "Avant d’envoyer un courriel, confirmer si Enigmail est activé [par défaut : ne pas confirmer]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
-<!ENTITY torbirdy.prefs.emailwizard.label "Activer l'assistant automatique de configuration de courriel de Thunderbird [par défaut : désactivé]">
+<!ENTITY torbirdy.prefs.emailwizard.label "Activer l’assistant automatique de configuration de courriel de Thunderbird [par défaut : désactivé]">
 <!ENTITY torbirdy.prefs.emailwizard.key "w">
 <!ENTITY torbirdy.prefs.automatic.label "Relever les nouveaux messages automatiquement pour tous les comptes [par défaut : désactivé]">
 <!ENTITY torbirdy.prefs.automatic.key "f">

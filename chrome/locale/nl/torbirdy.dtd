@@ -29,7 +29,7 @@
 <!ENTITY torbirdy.prefs.socks_host.key "h">
 <!ENTITY torbirdy.prefs.socks_port.label "Port: ">
 <!ENTITY torbirdy.prefs.socks_port.key "p">
-<!ENTITY torbirdy.prefs.torification.label "Transparant Torification">
+<!ENTITY torbirdy.prefs.torification.label "Transparant Torification (waarschuwing: vereist custom transproxy of Tor router)">
 <!ENTITY torbirdy.prefs.torification.key "t">
 <!ENTITY torbirdy.prefs.global "Globaal">
 <!ENTITY torbirdy.prefs.imap.label "Ondersteuning voor push e-mail voor IMAP-accounts inschakelen [standaard: uitgeschakeld]">
@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Plaats key ID's van ontvangers niet in versleutelde berichten [standaard: wel plaatsen]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Uitschakelen gecodeerde email headers [standaard: ingeschakeld]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Bevestig het versturen van e-mail als Enigmail is ingeschakeld [standaard: bevestig niet]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">

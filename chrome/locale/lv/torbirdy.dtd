@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Nelikt saņēmēju atslēgu identifikatorus šifrētajos ziņojumos [pēc noklusējuma: likt]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Atspējot šifrētus epastu iesākumus [noklusējuma vērtība: iespējots]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Apstiprināt pirms e-pasta nosūtīšanas, ja iespējota Enigmail [noklusējumvērtība: neapstiprināt]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
