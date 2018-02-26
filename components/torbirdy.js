@@ -1,7 +1,7 @@
 var { interfaces: Ci, utils: Cu, classes: Cc } = Components;
 
 Cu.import("resource://gre/modules/XPCOMUtils.jsm");
-Cu.import("resource://gre/modules/imXPCOMUtils.jsm");
+Cu.import("resource:///modules/imXPCOMUtils.jsm");
 Cu.import("resource://gre/modules/AddonManager.jsm");
 Cu.import("resource://gre/modules/Preferences.jsm");
 
@@ -439,7 +439,6 @@ function TorBirdy() {
   this.setPrefs();
   sanitizeDateHeaders();
 
-  dump("TorBirdy registered!\n");
 }
 
 TorBirdy.prototype = {
@@ -471,7 +470,6 @@ TorBirdy.prototype = {
   onUninstalling: function(addon, needsRestart) {
     this.onStateChange();
     if (addon.id == TB_ID) {
-      dump("TorBirdy uninstall requested\n");
       this._uninstall = true;
       this.resetUserPrefs();
     }
@@ -480,7 +478,6 @@ TorBirdy.prototype = {
   onOperationCancelled: function(addon) {
     this.onStateChange();
     if (addon.id == TB_ID) {
-      dump("Uninstall requested cancelled\n");
       this._uninstall = false;
       this.setPrefs();
     }
@@ -491,14 +488,12 @@ TorBirdy.prototype = {
   },
 
   resetUserPrefs: function() {
-    dump("Resetting user preferences to default\n");
     // Clear the Thunderbird preferences we changed.
     for (let each in TorBirdyPrefs) {
       this.prefs.clearUserPref(each);
     }
 
     // Restore the older proxy preferences that were set prior to TorBirdy's install.
-    dump("Restoring proxy settings\n");
     for (let i = 0; i < TorBirdyOldPrefs.length; i++) {
       var oldPref = TorBirdyOldPrefs[i];
       var setValue = kRestoreBranch + oldPref;
