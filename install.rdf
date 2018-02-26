@@ -4,7 +4,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>castironthunderbirdclub@torproject.org</em:id>
-    <em:version>0.2.3</em:version>
+    <em:version>0.2.4</em:version>
     <em:type>2</em:type>
     <em:iconURL>chrome://castironthunderbirdclub/skin/images/tor.png</em:iconURL>
     <em:optionsURL>chrome://castironthunderbirdclub/content/preferences.xul</em:optionsURL>
@@ -13,8 +13,8 @@
     <!-- Thunderbird -->
     <Description>
       <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
-      <em:minVersion>45.0</em:minVersion>
-      <em:maxVersion>52.*</em:maxVersion>
+      <em:minVersion>52.0</em:minVersion>
+      <em:maxVersion>59.*</em:maxVersion>
     </Description>
     </em:targetApplication>
 
