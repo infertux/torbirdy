@@ -10,7 +10,7 @@
         onload="return org.torbirdy.firstrun.onLoad();"
         ondialogaccept="window.close();">
 
-   <script type="application/x-javascript"
+   <script type="application/javascript"
      src="chrome://castironthunderbirdclub/content/firstruninfo.js"></script>
 
    <stringbundleset id="stringbundleset">

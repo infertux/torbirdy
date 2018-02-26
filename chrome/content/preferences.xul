@@ -19,7 +19,7 @@
         ondialogaccept="return org.torbirdy.prefs.onAccept();"
         onload="return org.torbirdy.prefs.onLoad();">
         
-  <script type="application/x-javascript"
+  <script type="application/javascript"
        src="chrome://castironthunderbirdclub/content/preferences.js"></script>
 
   <tabbox>

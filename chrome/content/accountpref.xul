@@ -14,7 +14,7 @@
         onload="return org.torbirdy.accountprefs.onLoad();"
         ondialogaccept="return org.torbirdy.accountprefs.onAccept();">
 
-   <script type="application/x-javascript"
+   <script type="application/javascript"
      src="chrome://castironthunderbirdclub/content/accountpref.js"></script>
 
    <vbox>
