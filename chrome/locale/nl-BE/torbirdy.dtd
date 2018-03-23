@@ -40,8 +40,6 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Bevestig voor verzenden indien Enigmail is ingeschakeld [standaard: niet bevestigen]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Schakel de automatische e-mail configuratie wizard in [standaard: uitgeschakeld]">

@@ -40,8 +40,6 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "y">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Xác nhận trước khi gửi email nếu Enigmail được cho phép [default: do not confirm]">
 <!ENTITY torbirdy.prefs.confirmemail.key "y">
 <!ENTITY torbirdy.prefs.emailwizard.label "Cho phép hướng dẫn cấu hình email tự động của Thunderbird [default: disabled]">

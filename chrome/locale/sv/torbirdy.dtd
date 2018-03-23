@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Lägg inte till mottagarnas nyckel-IDn i krypterade meddelanden [standard: lägg till]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Stäng av okryperade mejl huvud [Förinställt som påslaget]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Stäng av kryperade mejl huvud [Förinställt som påslaget]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Bekräfta innan e-post skickas om Enigmail är aktiverat [standard: bekräfta inte]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">

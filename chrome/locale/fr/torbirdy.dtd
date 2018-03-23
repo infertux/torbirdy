@@ -1,6 +1,6 @@
 <!ENTITY torbirdy.accountprefs.title "Configuration du compte">
 <!ENTITY torbirdy.accountprefs.startup.label "Relever les nouveaux messages au démarrage">
-<!ENTITY torbirdy.accountprefs.startup.key "C">
+<!ENTITY torbirdy.accountprefs.startup.key "R">
 <!ENTITY torbirdy.accountprefs.minutes.label "Relever les nouveaux messages toutes les">
 <!ENTITY torbirdy.accountprefs.minutes.key "y">
 <!ENTITY torbirdy.accountprefs.minutes.trail.label "minutes">
@@ -49,7 +49,7 @@
 <!ENTITY torbirdy.prefs.account_specific "Spécifique au compte">
 <!ENTITY torbirdy.prefs.select_account.key "C">
 <!ENTITY torbirdy.prefs.select_account.label "Choisir un compte :">
-<!ENTITY torbirdy.prefs.enigmail.keyserver.label "Serveur(s) de clés à utiliser :">
+<!ENTITY torbirdy.prefs.enigmail.keyserver.label "Serveurs de clés à utiliser :">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.key "k">
 
 <!ENTITY torbirdy.panel.usetor.label "Utiliser le routeur oignon de Tor">

@@ -40,8 +40,6 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Enigmail සබල කර ඇත්නම් විද්‍යුත් තැපෑල එවීමට පෙර තහවුරු කරන්න  [default: do not confirm]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Thunderbird ගේ ස්වයංක්‍රීය විද්‍යුත් තැපෑල වින්‍යාස විශාරද සබල කරන්න [default: disabled]">

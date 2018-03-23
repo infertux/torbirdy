@@ -17,7 +17,7 @@
 <!ENTITY torbirdy.prefs.testproxy.button "Test Proxy Settings">
 <!ENTITY torbirdy.prefs.testproxy.key "n">
 <!ENTITY torbirdy.prefs.proxy.label "Proxy">
-<!ENTITY torbirdy.prefs.privacy.label "Privacy">
+<!ENTITY torbirdy.prefs.privacy.label "Obwekusiffu">
 <!ENTITY torbirdy.prefs.enigmail.label "Enigmail">
 <!ENTITY torbirdy.prefs.recommended.text "Use the recommended proxy settings for TorBirdy (Tor)">
 <!ENTITY torbirdy.prefs.recommended.key "r">
@@ -38,8 +38,6 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Do not put the recipient key IDs into encrypted messages [default: put]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Confirm before sending email if Enigmail is enabled [default: do not confirm]">

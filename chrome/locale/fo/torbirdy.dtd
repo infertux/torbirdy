@@ -40,8 +40,6 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "b">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "u">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "u">
 <!ENTITY torbirdy.prefs.confirmemail.label "Vátta áðrenn teldupostar verða sendir, um Enigmail er gildað [er vanliga ikki gildað]">
 <!ENTITY torbirdy.prefs.confirmemail.key "E">
 <!ENTITY torbirdy.prefs.emailwizard.label "Gilda sjálvvirkandi teldupostvegleiðaran hjá Thunderbird [er vanliga ikki gildaður]">

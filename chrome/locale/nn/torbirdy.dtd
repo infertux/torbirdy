@@ -40,8 +40,6 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Stadest før sending av epost om Enigmail er slått på [standard: ikkje stadfest]">
 <!ENTITY torbirdy.prefs.confirmemail.key "s">
 <!ENTITY torbirdy.prefs.emailwizard.label "Slå på Thunderbirds automatiske konfigureringshjelp [standard: slått av] ">

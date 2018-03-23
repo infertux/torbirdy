@@ -41,8 +41,6 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "p">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "ਈਮੇਲ ਕਰਨ ਤੌਂ ਪਿਹਲਾਂ ਪੂਛੋ ਜੈ ਏਨਿਗਮੇਲ ਚਾਲੂ ਹੈ">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "ਥੰਡਰਬਰਡ ਦੇ ਆਟੋ-ਸੰਰਚਨਾ ਈਮੈਲ ਸੈਟਅੱਪ ਨੂੰ ਨਾ ਰੱਦ ਕਰੋ">

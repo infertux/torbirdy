@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "p">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Не вставляти ідентифікатори ключів у зашифровані повідомлення [за замовчуванням: вставляти]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Вимкнути зашифровані заголовки електронної пошти [за замовчуванням: увімкнено]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Підтверджувати перед відправкою листа, якщо Enigmail активний [за замовчуванням: не підтверджувати]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">

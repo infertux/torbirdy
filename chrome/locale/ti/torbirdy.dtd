@@ -5,18 +5,18 @@
 <!ENTITY torbirdy.accountprefs.minutes.key "d">
 <!ENTITY torbirdy.accountprefs.minutes.trail.label "minutes">
 <!ENTITY torbirdy.accountprefs.cancel.button "Cancel">
-<!ENTITY torbirdy.accountprefs.save.button "Save">
+<!ENTITY torbirdy.accountprefs.save.button "ኽዝን">
 <!ENTITY torbirdy.accountprefs.save.key "S">
 
 <!ENTITY torbirdy.prefs.title "TorBirdy Preferences">
-<!ENTITY torbirdy.prefs.save.button "Save">
+<!ENTITY torbirdy.prefs.save.button "ኽዝን">
 <!ENTITY torbirdy.prefs.save.key "s">
 <!ENTITY torbirdy.prefs.cancel.button "Cancel">
 <!ENTITY torbirdy.prefs.extra2.button "Restore Defaults">
 <!ENTITY torbirdy.prefs.extra2.key "d">
 <!ENTITY torbirdy.prefs.testproxy.button "Test Proxy Settings">
 <!ENTITY torbirdy.prefs.testproxy.key "n">
-<!ENTITY torbirdy.prefs.proxy.label "Proxy">
+<!ENTITY torbirdy.prefs.proxy.label "ብርሕቐት">
 <!ENTITY torbirdy.prefs.privacy.label "Privacy">
 <!ENTITY torbirdy.prefs.enigmail.label "Enigmail">
 <!ENTITY torbirdy.prefs.recommended.text "Use the recommended proxy settings for TorBirdy (Tor)">
@@ -38,8 +38,6 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Do not put the recipient key IDs into encrypted messages [default: put]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Confirm before sending email if Enigmail is enabled [default: do not confirm]">

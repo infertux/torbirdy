@@ -36,7 +36,7 @@
 <!ENTITY torbirdy.prefs.imap.key "p">
 <!ENTITY torbirdy.prefs.startup_folder.label "Cuando arranque seleccionar la última carpeta de correo a la que se accedió [predeterminado: deshabilitado]">
 <!ENTITY torbirdy.prefs.startup_folder.key "u">
-<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "No ponga la clave de identificación del receptor en los mensajes cifrados [por defecto: poner]">
+<!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "No poner la clave de identificación del receptor en los mensajes cifrados [por defecto: poner]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "f">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Deshabilitar cabeceras cifradas de correo electrónico [predeterminado: habilitado]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "r">

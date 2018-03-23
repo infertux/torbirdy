@@ -38,9 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "i">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "इनक्रिप्टेट (गोपनीकृत) संदेशों में प्राप्तकर्ता की कुंजी न प्रेषित करें [मानक स्थिति: प्रेषित]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "एन्क्रिप्ट किए गए ईमेल headers लेखों को अक्षम करें [डिफ़ॉल्ट: सक्षम]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "यदि इनिग्मेल सक्रिय है, तो ई मेल प्रेषित करने से पूर्व पुष्टि करें [मानक स्थिति: पुष्टि न करें]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">

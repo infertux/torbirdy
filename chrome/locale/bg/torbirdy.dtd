@@ -40,8 +40,6 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Деактивиране на криптирането на хедърите на имейла [по подразбиране: активирано]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Деактивиране на криптирането на хедърите на имейла [по подразбиране: активирано]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Потвърдете, преди да изпратите е-поща, ако Enigmail е активиран [по подразбиране: е непотвърдено]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Включване автоматично на съветника за конфигурация на е-поща на Thunderbird [по подразбиране: изключено]">
