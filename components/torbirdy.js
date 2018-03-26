@@ -214,6 +214,8 @@ var TorBirdyPrefs = {
   "browser.cache.memory.enable": false,
   "browser.cache.offline.enable": false,
   "browser.formfill.enable": false,
+  // https://bugs.torproject.org/22944
+  "browser.chrome.site_icons": false,
   "signon.autofillForms": false,
 
   // https://bugs.torproject.org/10367
