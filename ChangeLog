@@ -1,6 +1,8 @@
 0.2.4, 
- * Update translations, adding all supported languages from Transifex
+ * Bug 22484: TB 52+ leaks installed dictionary
+ * Bug 22944: Disable fetching site icons
  * Added support for Thunderbird 58 and Thunderbird 59
+ * Update translations, adding all supported languages from Transifex
 
 0.2.3, 04 Aug 2017
  * Bug 21880: Enable encrypted email headers for Enigmail (Memory Hole)
