@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "暗号化したメッセージに受領者のキーIDを付けない[デフォルト：付ける]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "暗号化されるメールヘッダーを無効にする（デフォルト：有効）">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Enigmailが有効の場合メールを送信する前に確認 [デフォルト: 確認しない]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
