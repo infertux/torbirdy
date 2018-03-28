@@ -391,12 +391,14 @@ var TorBirdyOldPrefs = [
   "network.proxy.http",
 ]
 
-// sanitizeDateHeaders()
-// Run this function to make sure that the Date header in a new message
-// is rounded down to the nearest minute.
-function sanitizeDateHeaders() {
+// sanitizeHeaders()
+// Sanitize the "Date" and "Content-Language" headers.
+function sanitizeHeaders() {
   // Import the jsmime module that is used to generate mail headers.
   let { jsmime } = Cu.import("resource:///modules/jsmime.jsm");
+  // Date
+  // Run this function to make sure that the Date header in a new message
+  // is rounded down to the nearest minute.
   // Inject our own structured encoder to the default header emitter,
   // to override the default Date encoder with a rounded-down version.
   jsmime.headeremitter.addStructuredEncoder("Date", function (date) {
@@ -409,6 +411,14 @@ function sanitizeDateHeaders() {
     // Date.toUTCString() produces an RFC 1123-formatted date string.
     // We replace the "GMT" symbol with "+0000" because it is preferred.
     this.addText(roundedDate.toUTCString().replace(/GMT$/, "+0000"), false);
+  });
+  // Content-Language
+  // Also set the Content-Language to "en-US" to prevent leaking the user's
+  // default dictionary. Reported in https://bugs.torproject.org/22484 and
+  // discussed in Section 4 of RFC 3282.
+  // Thunderbird bug: https://bugzilla.mozilla.org/show_bug.cgi?id=1370217
+  jsmime.headeremitter.addStructuredEncoder("Content-Language", function (locale) {
+    this.addText("en-US", false);
   });
 }
 
@@ -439,7 +449,7 @@ function TorBirdy() {
 
   this.setAccountPrefs();
   this.setPrefs();
-  sanitizeDateHeaders();
+  sanitizeHeaders();
 
 }
 
