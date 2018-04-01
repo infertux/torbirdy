@@ -42,14 +42,10 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
       opts += "--throw-keyids ";
     }
     if (! pub.prefs.getBoolPref("extensions.torbirdy.gpg_already_torified")) {
-      var proxy = "socks5h://127.0.0.1:9150";
       if (anonService === "jondo") {
-        proxy = "http://127.0.0.1:4001";
+        let proxy = "http://127.0.0.1:4001";
+        opts += "--keyserver-options=no-try-dns-srv,http-proxy=" + proxy + " ";
       }
-      if (anonService === "custom") {
-        proxy = "socks5h://" + pub.prefs.getCharPref("network.proxy.socks") + ":" + pub.prefs.getIntPref("network.proxy.socks_port");
-      }
-      opts += "--keyserver-options=no-try-dns-srv,http-proxy=" + proxy + " ";
     }
 
     return opts +
