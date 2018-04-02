@@ -1,4 +1,4 @@
-0.2.4, 
+0.2.4, 02 April 2018
  * Bug 22484: TB 52+ leaks installed dictionary
  * Bug 22944: Disable fetching site icons
  * Bug 23148: Invalid GPG keyserver options in Enigmail
