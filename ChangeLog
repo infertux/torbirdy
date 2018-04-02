@@ -1,6 +1,7 @@
 0.2.4, 
  * Bug 22484: TB 52+ leaks installed dictionary
  * Bug 22944: Disable fetching site icons
+ * Bug 23148: Invalid GPG keyserver options in Enigmail
  * Added support for Thunderbird 58 and Thunderbird 59
  * Update translations, adding all supported languages from Transifex
 
