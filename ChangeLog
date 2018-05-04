@@ -1,3 +1,7 @@
+0.2.5, 
+ * Add support for Thunderbird 60 (minimum supported is Thunderbird 52)
+ * Fix issue when resetting preferences to default
+
 0.2.4, 02 April 2018
  * Bug 22484: TB 52+ leaks installed dictionary
  * Bug 22944: Disable fetching site icons
