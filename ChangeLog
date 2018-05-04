@@ -1,4 +1,4 @@
-0.2.5, 
+0.2.5, 04 May 2018
  * Add support for Thunderbird 60 (minimum supported is Thunderbird 52)
  * Fix issue when resetting preferences to default
 
