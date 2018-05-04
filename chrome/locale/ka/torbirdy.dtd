@@ -3,14 +3,14 @@
 <!ENTITY torbirdy.accountprefs.startup.key "ჩ">
 <!ENTITY torbirdy.accountprefs.minutes.label "Check for new messages every">
 <!ENTITY torbirdy.accountprefs.minutes.key "ყ">
-<!ENTITY torbirdy.accountprefs.minutes.trail.label "minutes">
+<!ENTITY torbirdy.accountprefs.minutes.trail.label "წთ">
 <!ENTITY torbirdy.accountprefs.cancel.button "Cancel">
 <!ENTITY torbirdy.accountprefs.save.button "გადარჩენა">
 <!ENTITY torbirdy.accountprefs.save.key "შ">
 
 <!ENTITY torbirdy.prefs.title "TorBirdy Preferences">
 <!ENTITY torbirdy.prefs.save.button "გადარჩენა">
-<!ENTITY torbirdy.prefs.save.key "s">
+<!ENTITY torbirdy.prefs.save.key "წმ">
 <!ENTITY torbirdy.prefs.cancel.button "გაუქმება">
 <!ENTITY torbirdy.prefs.extra2.button "გაჩუმების პრინციპით დაყენებული პარამეტრების აღდგენა">
 <!ENTITY torbirdy.prefs.extra2.key "დ">
