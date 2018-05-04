@@ -400,8 +400,6 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
     pub.enigmailKeyserver = document.getElementById('torbirdy-enigmail-keyserver');
     pub.enigmailConfirmEmail = document.getElementById('torbirdy-confirm-email');
     pub.enigmailProtected = document.getElementById('torbirdy-enigmail-protected');
-    // Security.
-    pub.secureRenegotiation = document.getElementById('torbirdy-renegotiation');
 
     // Make sure the user really wants to change these settings.
     var warnPrompt = pub.prefs.getBoolPref("extensions.torbirdy.warn");
@@ -577,8 +575,8 @@ if (!org.torbirdy.prefs) org.torbirdy.prefs = new function() {
     pub.anonService.selectedIndex = 0;
     pub.enigmailKeyId.checked = false;
     pub.enigmailConfirmEmail.checked = false;
+    pub.enigmailProtected.checked = false;
     pub.emailWizard.checked = false;
-    pub.secureRenegotiation.checked = false;
     pub.imapIdle.checked = false;
     pub.startupFolder.checked = false;
     pub.fetchAllMails.checked = false;
