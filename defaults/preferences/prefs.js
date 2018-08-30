@@ -8,7 +8,6 @@ pref("extensions.torbirdy.enigmail.confirmemail", false);
 pref("extensions.torbirdy.gpg_already_torified", false);
 pref("extensions.torbirdy.timezone", true);
 pref("extensions.torbirdy.whonix_run", true);
-pref("extensions.torbirdy.info_run", false);
 pref("extensions.torbirdy.emailwizard", false);
 pref("extensions.torbirdy.fetchall", false);
 pref("extensions.torbirdy.defaultprotocol", 0); // 0 - POP3, 1 - IMAP

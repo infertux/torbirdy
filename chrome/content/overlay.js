@@ -15,14 +15,6 @@
 
   window.TorBirdy = {
     onLoad: function() {
-      var infoRun = "extensions.torbirdy.info_run";
-      if (prefs.getBoolPref(infoRun)) {
-        window.open("chrome://castironthunderbirdclub/content/firstruninfo.xul",
-                    "FirstRunWindow",
-                    "chrome, dialog, centerscreen, resizable=no");
-        prefs.setBoolPref(infoRun, false);
-      }
-
       // Check if we are running Whonix.
       var whonix = false;
       if (env.exists("WHONIX")) {
