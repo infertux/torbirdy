@@ -480,16 +480,16 @@ TorBirdy.prototype = {
   },
 
   onUninstalling: function(addon, needsRestart) {
-    this.onStateChange();
     if (addon.id == TB_ID) {
+      this.onStateChange();
       this._uninstall = true;
       this.resetUserPrefs();
     }
   },
 
   onOperationCancelled: function(addon) {
-    this.onStateChange();
     if (addon.id == TB_ID) {
+      this.onStateChange();
       this._uninstall = false;
       this.setPrefs();
     }
