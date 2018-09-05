@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "수취인의 키 ID를 암호화된 메시지에 넣기 [기본값 : 비활성화]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "이메일 헤더가 암호화하는 것을 비활성화 [기본적으로 활성화됨]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Enigmail이 활성화되었을 경우 메일을 보내기 전에 확인하기 [기본값 : 확인하지 않음]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "JonDo 사용 (프리미엄)">
 <!ENTITY torbirdy.panel.usewhonix.label "Whonix 사용">
 <!ENTITY torbirdy.panel.preferences.label "Torbirdy 개인 설정 열기">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy First-Run">

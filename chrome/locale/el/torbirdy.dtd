@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Να μην τοποθετητούν τα key ID του παραλήπτη στα κρυπτογραφημένα μηνήματα [προεπιλογή : τοποθέτηση]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "ρ">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Απενεργοποίηση κρυπτογραφημένων κεφαλίδων email [προεπιλογή: ενεργοποιημένο]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Επιβεβαιωση πριν την αποστολη του email αν το Enigmail ειναι ενεργοποιημενο [προκαθορισμος: καμμια επιβεβαιωση]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "Χρησιμοποιηση του JonDo (Premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Χρησιμοποιηση του Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Ανοιγμα των TorBirdy ρυθμισεων">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy πρωτη εκκινηση">

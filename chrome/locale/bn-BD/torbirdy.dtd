@@ -1,5 +1,5 @@
 <!ENTITY torbirdy.accountprefs.title "অ্যাকাউন্ট কনফিগারেশন">
-<!ENTITY torbirdy.accountprefs.startup.label "শুরুতে নতুন বার্তাগুলির জন্য চেক করুন">
+<!ENTITY torbirdy.accountprefs.startup.label "শুরুতে নতুন বার্তাগুলির চেক করুন">
 <!ENTITY torbirdy.accountprefs.startup.key "C">
 <!ENTITY torbirdy.accountprefs.minutes.label "নতুন বার্তা প্রতিটি জন্য চেক করুন">
 <!ENTITY torbirdy.accountprefs.minutes.key "y">
@@ -19,7 +19,7 @@
 <!ENTITY torbirdy.prefs.proxy.label "প্রক্সি">
 <!ENTITY torbirdy.prefs.privacy.label "গোপনীয়তা">
 <!ENTITY torbirdy.prefs.enigmail.label "Enigmail">
-<!ENTITY torbirdy.prefs.recommended.text "TorBirdy (টর) জন্য প্রস্তাবিত প্রক্সি সেটিংস ব্যবহার করুন">
+<!ENTITY torbirdy.prefs.recommended.text "TorBirdy (টর) এর জন্য প্রস্তাবিত প্রক্সি সেটিংস ব্যবহার করুন">
 <!ENTITY torbirdy.prefs.recommended.key "r">
 <!ENTITY torbirdy.prefs.anonservice.text "একটি গোপনীয়তা পরিষেবা চয়ন করুন">
 <!ENTITY torbirdy.prefs.anonservice.key "a">
@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "JonDo (প্রিমিয়াম) ব্যবহার করুন">
 <!ENTITY torbirdy.panel.usewhonix.label "হুনিক্স ব্যবহার করুন">
 <!ENTITY torbirdy.panel.preferences.label "TorBirdy পছন্দ খুলুন">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy ফার্স্ট-রান">

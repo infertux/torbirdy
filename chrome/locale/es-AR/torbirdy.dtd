@@ -40,9 +40,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "No coloque las identidades de la clave del receptor en mensajes encriptados [valor por defecto: colocar]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
-<!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Deshabilitar encabezamientos encriptados de correo electrónico [por defecto: habilitado]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Confirme si Enigmail está habilitado antes de enviar un e-mail [valor por defecto: no confirme]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
@@ -62,5 +60,3 @@
 ">
 <!ENTITY torbirdy.panel.usewhonix.label "Use Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Abra las preferencias de TorBirdy">
-
-<!ENTITY torbirdy.firstrun.title "Primera vuelta de TorBirdy">

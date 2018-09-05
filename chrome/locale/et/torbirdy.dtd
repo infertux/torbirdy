@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "JonDo (Preemium) kasutamine">
 <!ENTITY torbirdy.panel.usewhonix.label "Whonix'i kasutamine">
 <!ENTITY torbirdy.panel.preferences.label "Ava TorBirdy eelistused">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy esimakordne käivitamine">

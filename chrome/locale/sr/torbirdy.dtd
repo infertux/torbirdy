@@ -40,7 +40,7 @@
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Не стављајте кључена ИД примаоца у кодирану порука [дефаулт: пут]
 ">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Онемогући шифрована заглавља електронске поште [подразумевано: омогућено]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "д">
 <!ENTITY torbirdy.prefs.confirmemail.label "Potvrdi pre slanja ukoliko je Enigmail omogućen ">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
@@ -60,5 +60,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "Koristi JonDo (Premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Koristi Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Otvori TorBirdy Preferences">
-
-<!ENTITY torbirdy.firstrun.title "Torbirdy Prvi ">

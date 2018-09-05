@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "使用JonDo(進階)">
 <!ENTITY torbirdy.panel.usewhonix.label "使用Whonix">
 <!ENTITY torbirdy.panel.preferences.label "開啟TorBirdy喜好設定">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy初次執行">

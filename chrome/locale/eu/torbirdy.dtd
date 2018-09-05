@@ -38,7 +38,7 @@
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Ez jarri ID gako hartzailea enkriptatutako mezuetan [lehentsia: jarri]">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
-<!ENTITY torbirdy.prefs.enigmail_protected.label "Disable encrypted email headers [default: enabled]">
+<!ENTITY torbirdy.prefs.enigmail_protected.label "Ezgaitu enkriptatutako posta elektronikoaren goiburuak [lehenetsia: gaituta]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
 <!ENTITY torbirdy.prefs.confirmemail.label "Berretsi Enigmail gaituta dagoen eposta bidali baino lehen [lehentsia: es berretsi]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "Erabili JonDo (Premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Erabili Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Ireki TorBirdy hobespenak">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy lehen-abioa">

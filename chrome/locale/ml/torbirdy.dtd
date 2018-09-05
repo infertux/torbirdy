@@ -1,4 +1,4 @@
-<!ENTITY torbirdy.accountprefs.title "Account Configuration">
+<!ENTITY torbirdy.accountprefs.title "അക്കൗണ്ട് സംവിധാനങ്ങൾ ">
 <!ENTITY torbirdy.accountprefs.startup.label "Check for new messages at startup">
 <!ENTITY torbirdy.accountprefs.startup.key "C">
 <!ENTITY torbirdy.accountprefs.minutes.label "Check for new messages every">
@@ -17,7 +17,7 @@
 <!ENTITY torbirdy.prefs.testproxy.button "Test Proxy Settings">
 <!ENTITY torbirdy.prefs.testproxy.key "n">
 <!ENTITY torbirdy.prefs.proxy.label "Proxy">
-<!ENTITY torbirdy.prefs.privacy.label "Privacy">
+<!ENTITY torbirdy.prefs.privacy.label "സ്വകാര്യത ">
 <!ENTITY torbirdy.prefs.enigmail.label "Enigmail">
 <!ENTITY torbirdy.prefs.recommended.text "Use the recommended proxy settings for TorBirdy (Tor)">
 <!ENTITY torbirdy.prefs.recommended.key "r">
@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "Use JonDo (Premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Use Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Open TorBirdy Preferences">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy First-Run">

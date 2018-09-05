@@ -57,5 +57,3 @@ las cuentas [por defecto: dehabilitado]">
 <!ENTITY torbirdy.panel.usejondo.label "Usar JonDo (premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Usar Whonix (virtualización)">
 <!ENTITY torbirdy.panel.preferences.label "Abrir Preferencias de TorBirdy">
-
-<!ENTITY torbirdy.firstrun.title "Primera ejecución de TorBirdy">

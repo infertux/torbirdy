@@ -16,7 +16,7 @@
 <!ENTITY torbirdy.prefs.extra2.key "d">
 <!ENTITY torbirdy.prefs.testproxy.button "Test Proxy Settings">
 <!ENTITY torbirdy.prefs.testproxy.key "n">
-<!ENTITY torbirdy.prefs.proxy.label "Proxy">
+<!ENTITY torbirdy.prefs.proxy.label "பதிலாள்">
 <!ENTITY torbirdy.prefs.privacy.label "Privacy">
 <!ENTITY torbirdy.prefs.enigmail.label "Enigmail">
 <!ENTITY torbirdy.prefs.recommended.text "Use the recommended proxy settings for TorBirdy (Tor)">
@@ -56,5 +56,3 @@
 <!ENTITY torbirdy.panel.usejondo.label "Use JonDo (Premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Use Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Open TorBirdy Preferences">
-
-<!ENTITY torbirdy.firstrun.title "TorBirdy First-Run">
