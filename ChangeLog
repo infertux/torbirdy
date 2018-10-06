@@ -1,4 +1,4 @@
-0.2.6, 
+0.2.6, 06 Oct 2018
  * Bug 27950: Add support for Thunderbird 60.2.1
  * Use onion service address for Riseup and systemli.org email accounts (1d06f43)
  * Remove redundant code for displaying first-run dialog (9d81a38)
