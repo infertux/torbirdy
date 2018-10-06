@@ -27,9 +27,9 @@
 <!ENTITY torbirdy.prefs.customsettings.key "c">
 <!ENTITY torbirdy.prefs.socks_host.label "SOCKS Host: ">
 <!ENTITY torbirdy.prefs.socks_host.key "h">
-<!ENTITY torbirdy.prefs.socks_port.label "Θύρα">
+<!ENTITY torbirdy.prefs.socks_port.label "Θύρα:">
 <!ENTITY torbirdy.prefs.socks_port.key "p">
-<!ENTITY torbirdy.prefs.torification.label "Ξεχωριστό Torification">
+<!ENTITY torbirdy.prefs.torification.label "Διαυγές Torification (προσοχή: απαιτείται βασικό transproxy ή Tor router)">
 <!ENTITY torbirdy.prefs.torification.key "t">
 <!ENTITY torbirdy.prefs.global "Παγκόσμια">
 <!ENTITY torbirdy.prefs.imap.label "Ενεργοποίηση push email για υποστήριξη IMAP λογαριασμών [προεπιλογή: απενεργοποιημένο]">
@@ -37,22 +37,22 @@
 <!ENTITY torbirdy.prefs.startup_folder.label "Επιλογή του τελευταίου ανοιγμένου φακέλου αλληλλογραφίας κατά την εκκίνηση [προεπιλογή : απενεργοποιημένο]">
 <!ENTITY torbirdy.prefs.startup_folder.key "l">
 <!ENTITY torbirdy.prefs.enigmail_throwkeyid.label "Να μην τοποθετητούν τα key ID του παραλήπτη στα κρυπτογραφημένα μηνήματα [προεπιλογή : τοποθέτηση]">
-<!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "ρ">
+<!ENTITY torbirdy.prefs.enigmail_throwkeyid.key "r">
 <!ENTITY torbirdy.prefs.enigmail_protected.label "Απενεργοποίηση κρυπτογραφημένων κεφαλίδων email [προεπιλογή: ενεργοποιημένο]">
 <!ENTITY torbirdy.prefs.enigmail_protected.key "d">
-<!ENTITY torbirdy.prefs.confirmemail.label "Επιβεβαιωση πριν την αποστολη του email αν το Enigmail ειναι ενεργοποιημενο [προκαθορισμος: καμμια επιβεβαιωση]">
+<!ENTITY torbirdy.prefs.confirmemail.label "Επιβεβαίωση πριν την αποστολή του email αν το Enigmail είναι ενεργοποιημένο [προκαθορισμός: καμία επιβεβαίωση]">
 <!ENTITY torbirdy.prefs.confirmemail.key "c">
 <!ENTITY torbirdy.prefs.emailwizard.label "Ενεργοποίηση αυτόματης ρύθμισης παραμέτρων ηλεκτρονικού ταχυδρομείου Thunderbird του οδηγού [προεπιλογή: απενεργοποιημένο]">
-<!ENTITY torbirdy.prefs.emailwizard.key "β">
+<!ENTITY torbirdy.prefs.emailwizard.key "w">
 <!ENTITY torbirdy.prefs.automatic.label "Αυτόματος έλεγχος νέων μηνυμάτων για όλους τους λογαριασμούς [προεπιλογή: απενεργοποιημένο]">
 <!ENTITY torbirdy.prefs.automatic.key "f">
 <!ENTITY torbirdy.prefs.account_specific "Ειδικός λογαριασμός">
 <!ENTITY torbirdy.prefs.select_account.key "C">
-<!ENTITY torbirdy.prefs.select_account.label "Επιλογή ενός λογαριασμού">
-<!ENTITY torbirdy.prefs.enigmail.keyserver.label "Βασικός δίσκος για χρησιμοποίηση">
-<!ENTITY torbirdy.prefs.enigmail.keyserver.key "κ">
+<!ENTITY torbirdy.prefs.select_account.label "Επιλογή ενός λογαριασμού:">
+<!ENTITY torbirdy.prefs.enigmail.keyserver.label "Βασικός server για χρήση:">
+<!ENTITY torbirdy.prefs.enigmail.keyserver.key "k">
 
-<!ENTITY torbirdy.panel.usetor.label "Χρησιμοποιηση του Tor Onion Router">
-<!ENTITY torbirdy.panel.usejondo.label "Χρησιμοποιηση του JonDo (Premium)">
-<!ENTITY torbirdy.panel.usewhonix.label "Χρησιμοποιηση του Whonix">
-<!ENTITY torbirdy.panel.preferences.label "Ανοιγμα των TorBirdy ρυθμισεων">
+<!ENTITY torbirdy.panel.usetor.label "Χρήση του Tor Onion Router">
+<!ENTITY torbirdy.panel.usejondo.label "Χρήση του JonDo (Premium)">
+<!ENTITY torbirdy.panel.usewhonix.label "Χρήση του Whonix">
+<!ENTITY torbirdy.panel.preferences.label "Άνοιγμα των ρυθμίσεων του TorBirdy">

@@ -52,7 +52,7 @@
 <!ENTITY torbirdy.prefs.enigmail.keyserver.label "Serveurs de clés à utiliser :">
 <!ENTITY torbirdy.prefs.enigmail.keyserver.key "k">
 
-<!ENTITY torbirdy.panel.usetor.label "Utiliser le routeur oignon de Tor">
+<!ENTITY torbirdy.panel.usetor.label "Utiliser le routeur onion de Tor">
 <!ENTITY torbirdy.panel.usejondo.label "Utiliser JonDo (Premium)">
 <!ENTITY torbirdy.panel.usewhonix.label "Utiliser Whonix">
 <!ENTITY torbirdy.panel.preferences.label "Ouvrir les préférences de TorBirdy">

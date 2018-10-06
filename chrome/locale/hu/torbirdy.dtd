@@ -29,7 +29,7 @@
 <!ENTITY torbirdy.prefs.socks_host.key "g">
 <!ENTITY torbirdy.prefs.socks_port.label "Port: ">
 <!ENTITY torbirdy.prefs.socks_port.key "p">
-<!ENTITY torbirdy.prefs.torification.label "Átlátszó Torosítás">
+<!ENTITY torbirdy.prefs.torification.label "Átlátszó Torosítás (Figyelem: egyedi transproxy-t vagy Tor routert igényel)">
 <!ENTITY torbirdy.prefs.torification.key "t">
 <!ENTITY torbirdy.prefs.global "Globális">
 <!ENTITY torbirdy.prefs.imap.label "A push támogatás bekapcsolása az IMAP fiókokhoz [alapértelmezett: kikapcsolva]">
