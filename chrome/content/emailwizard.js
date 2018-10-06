@@ -102,13 +102,15 @@ if(!org.torbirdy.emailwizard) org.torbirdy.emailwizard = new function() {
           // Gmail uses OAuth2, which we deal with later.
           pub.isGmail = true;
           break;
+        // From https://riseup.net/security/network-security/tor/hs-addresses-signed.txt
         case "riseup.net":
-          config.incoming.hostname = "mail.%EMAILDOMAIN%";
-          config.outgoing.hostname = "mail.%EMAILDOMAIN%";
+          config.incoming.hostname = "5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion";
+          config.outgoing.hostname = "5gdvpfoh6kb2iqbizb37lzk2ddzrwa47m6rpdueg2m656fovmbhoptqd.onion";
           break;
+        // From https://www.systemli.org/en/service/mail.html
         case "systemli.org":
-          config.incoming.hostname = "mail.%EMAILDOMAIN%";
-          config.outgoing.hostname = "mail.%EMAILDOMAIN%";
+          config.incoming.hostname = "h2qkxasmmqdmyiov.onion";
+          config.outgoing.hostname = "h2qkxasmmqdmyiov.onion";
           break;
       }
 
