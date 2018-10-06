@@ -1,8 +1,12 @@
+0.2.6, 
+ * Bug 27950: Add support for Thunderbird 60.2.1
+ * Use onion service address for Riseup and systemli.org email accounts
+
 0.2.5, 04 May 2018
  * Add support for Thunderbird 60 (minimum supported is Thunderbird 52)
  * Fix issue when resetting preferences to default
 
-0.2.4, 02 April 2018
+0.2.4, 02 Apr 2018
  * Bug 22484: TB 52+ leaks installed dictionary
  * Bug 22944: Disable fetching site icons
  * Bug 23148: Invalid GPG keyserver options in Enigmail
@@ -15,7 +19,7 @@
  * Bug 22318, 22567: Disable Microsoft Family Safety and Google Safe Browsing
  * Update keyserver port to 9150 (Tor Browser default)
 
-0.2.2, 03 April 2017
+0.2.2, 03 Apr 2017
  * Bug 20751: Enforce stronger ciphers in TorBirdy
  * Bug 6958, 16935, 19971: Add support for already torified keyserver
  communication using modern GnuPG
@@ -29,7 +33,6 @@
  * Added support for automatic configuration of systemli.org email accounts
 
 0.2.0, 27 Jun 2016
-
  * Bug 6314: Prevent local timestamp disclosure via Date header
  * Bug 6315: Prevent local timestamp disclosure via Message-ID header
  * Bug 13721: Fix usage of wrong locale
@@ -49,13 +52,12 @@
  * Update translations for existing languages
  * Many thanks to Arthur Edelstein and the Tails Developers for this release
 
-0.1.4, 09 March 2015
+0.1.4, 09 Mar 2015
   * Fix bug that prevented Thunderbird with TorBirdy 0.1.3 from starting
   in profiles with more than three IMAP accounts (closes #14099, #13982,
   #13722, #14007, #14130)
 
 0.1.3, 23 Oct 2014
-
   * The default keyserver (hidden service) has been updated:
     - hkp://qdigse2yzvuglcix.onion
   * Show the Sender header in message pane (closes #10226)
@@ -101,7 +103,6 @@
     * Ukrainian
 
 0.1.2, 04 Nov 2013
-
   * New options:
     - restore default TorBirdy settings
     - toggle checking of new messages automatically for all accounts
@@ -117,7 +118,6 @@
     - Please see the Transifex page for more information and credits
 
 0.1.1, 20 Mar 2013
-
   * Add a dialog for new users that is shown during the first-run (closes #8238)
   * Do not confirm before sending an email if Enigmail is enabled; default
     behavior changed from 0.1.0 (user opt-in allowed through the preferences)
@@ -132,7 +132,6 @@
   * Add Galician translation (thanks to tombouzada)
 
 0.1.0, 11 Feb 2013
-
   * Our first release in the Beta release series! Hooray!
   * Translation updates:
     - Add Gujarati translation (Kartik Mistry)
@@ -158,7 +157,7 @@
   * Improved security: better SSL enforcement
   * Add Tails support
 
-0.0.13, 28 Sept 2012
+0.0.13, 28 Sep 2012
   * Translation updates:
     - Add Hebrew translation (thanks to Sharon Dvir)
     - Add French translation (thanks to N3b)
@@ -166,7 +165,7 @@
     -Add Spanish translation (thanks to Juan Garofalo)
   * Code cleanup: prefixed generically-named IDs with TorBirdy namespace
 
-0.0.12, 27 Sept 2012
+0.0.12, 27 Sep 2012
   * TorBirdy now has localization support
   * - Current languages: English, German (translated by Karsten N.), Punjabi
   * TorBirdy code cleanup: fix global namespace pollution
@@ -188,7 +187,6 @@
     https://trac.torproject.org/projects/tor/ticket/2846
 
 0.0.11, 04 Aug 2012
-
   * Implemented an algorithm to generate time-independent message-ID (apply
     the patches in patches/ to a custom Thunderbird build)
   * Remove the 'Reference' and 'In-Reply-To' headers when forwarding a message
@@ -199,8 +197,7 @@
   * Disable push email for IMAP
   * Various other stability fixes
 
-0.0.10 Thu, 12 Jul 2012
-
+0.0.10, 12 Jul 2012
   * Don't check for messages on start up
   * Now includes patch in source for upstream date header modifications
     - Apply patches/date.patch to a custom Thunderbird compile
@@ -213,8 +210,7 @@
   * Added support for resetting user preferences on extension uninstall
   * Various privacy fixes as suggested by Karsten N
 
-0.0.9 Fri, 06 Jul 2012
-
+0.0.9, 06 Jul 2012
   * Added ChangeLog to document feature progress
   * Implemented basic preferences window
     - Patch by Karsten N from JonDos
