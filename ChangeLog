@@ -1,6 +1,8 @@
 0.2.6, 
  * Bug 27950: Add support for Thunderbird 60.2.1
- * Use onion service address for Riseup and systemli.org email accounts
+ * Use onion service address for Riseup and systemli.org email accounts (1d06f43)
+ * Remove redundant code for displaying first-run dialog (9d81a38)
+ * Restrict status bar update to TorBirdy (cdfba9e)
 
 0.2.5, 04 May 2018
  * Add support for Thunderbird 60 (minimum supported is Thunderbird 52)
